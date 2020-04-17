@@ -181,6 +181,7 @@ nav .navbuttons .theactualnavbuttons:hover {
 
 .MainColumnRight .PostBox {
     height: 300px;
+    width: 512px;
 }
 
 .MainColumnRight .PostHeader {
@@ -195,11 +196,12 @@ nav .navbuttons .theactualnavbuttons:hover {
 
 .MainColumnRight .PostFooter {
     height: 40px;
-    width: 512px;
+    width: 511px;
     margin: -10px -10px 0px -10px;
     top: 180px;
     background:rgb(245, 245, 245, .8);
-    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);;
 }
 
 .MainColumnRight .PostFooter p {
